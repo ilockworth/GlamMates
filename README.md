@@ -7,15 +7,111 @@ STEP 2: Pitch Your Project
 Before you start any actual coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials before your meeting and put them in your README.md:
 
 •	App Title: The name of your app.
+GlamMates
+
 •	App Description: What your app will do.
+GlamMates will serve as an on demand beauty service platform. Users will be able to search the nearest beauty, hair and nail salons with the click of a button. This will allow users to locate the nearest salons and book appointments. 
+
 •	API: The API you are using and the information you plan to get from it.
+https://www.yelp.com/developers/v3/manage_app?app_created=True
+
+API Key
+OjHnIZWm4ZLZKVa99o5eN-KsQABLLYnkLIxJb2eBqG2UPhvrB-sK5CcFKbJRUSW2ThJgHC2ieNDG0hAKvH8kaBLus5VwVw5ZYhLTF4o2VAgBk7IBG3Bobsor8FksYXYx
+
+
 •	API Snippet: A sample snippet of JSON from a successful GET request you have made to your API using Postman.
+
+"businesses": [
+        {
+            "id": "kG42_Vig-Y3mM4Mpb-njtw",
+            "alias": "code-salon-san-francisco",
+            "name": "CODE salon",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/TGfgQPhLVlQ87D4C8gvNgA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/code-salon-san-francisco?adjust_creative=IWx6kfrVARoksD6l0QXxyQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=IWx6kfrVARoksD6l0QXxyQ",
+            "review_count": 1016,
+            "categories": [
+                {
+                    "alias": "hair",
+                    "title": "Hair Salons"
+                },
+                {
+                    "alias": "waxing",
+                    "title": "Waxing"
+                },
+                {
+                    "alias": "skincare",
+                    "title": "Skin Care"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 37.78102872,
+                "longitude": -122.400261
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "370 4th St",
+                "address2": "Fl 2",
+                "address3": "",
+                "city": "San Francisco",
+                "zip_code": "94107",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "370 4th St",
+                    "Fl 2",
+                    "San Francisco, CA 94107"
+                ]
+            },
+            "phone": "+14156248340",
+            "display_phone": "(415) 624-8340",
+            "distance": 651.3496531949692
+        },
+        {
+
+
+
 •	Wireframes: The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.
+
+<!-- Low Fidelity Wireframes Template (1).jpg -->
+
+
 •	MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
+
+-search box
+-salon locator
+-service selector
+-address input
+-salon selector
+-result page
+-appointment booking page
+
 •	Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
+
+TBD upon construction/implementation(maybe a recent appointment page??)
+
 •	Goals: What you plan to accomplish for each day of the project week.
+
+
 •	Priority Matrix: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.
+
+https://app.conceptboard.com/board/u16y-7b7u-szr1-hu88-aqkb
+
+
+
+
+
 •	Timeframes: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
+
+
+
+
+
+
+
+
 Are you interested in styling your README.md to make it look nice? Don't know how to include photos or create links? Check out this Markdown Cheetsheet!
 
 
