@@ -1,0 +1,9 @@
+body{
+    font-family: sans-serif;
+  }
+ #menu {
+     background-color: plum;
+     padding: 20px;
+     width: auto;
+     text-align: left;
+ }
