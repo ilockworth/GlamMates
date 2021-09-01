@@ -17,8 +17,25 @@ function searchSalons () {
 function renderList(response){
     console.log(response.data);
     while (document.querySelector(".salon-list").firstChild){
-      document.querySelector(".salon-")  
+      document.querySelector(".salon-").removeChild(document.querySelector(".salon-list").firstChild)  
     }
+    let header=document.createElement("h2");
+    header.innerText="Salon List";
+    document.querySelector(".salon-list").appendChild(header);
+
+    for (let i=0;i<response.data.Search.length;i++){
+        console.log(response.data.Search[i].Salon);
+        let div=document.createElement("div");
+        let salon = document.createElement("p")
+        let name = document.createElement("p");
+        let address =document.createElement("p");
+        let phonenumber = document.createElement("p");
+        salon.innerText="Name: "+response.data.
+        Search[i].Salon; 
+        
+    }
+
+
 }
 
 
