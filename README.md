@@ -81,15 +81,15 @@ https://miro.com/app/board/o9J_lziVlhI=/
 # MVP:
 
 - search box
-- salon locator
+- salon locator button
+- displays salon results to page
+- appointment booking tab
+
+# Post-MVP: 
+
 - service selector
-- salon selector
-- result page
-- appointment booking page
-
-Post-MVP: 
-
 - address input
+- salon selector
 - animations
 - TBD upon construction/implementation(maybe a recent appointment page??)
 
