@@ -7,7 +7,9 @@ body{
 
 .appName {
   background-image: url(https://collegeforward.org/wp-content/uploads/2020/09/Self-Care-HERO.png);
-  width: 2000px;
+  background-repeat: repeat;
+  object-fit: fill;
+  width: 200%;
   height: 500px;
 }
 
