@@ -6,7 +6,9 @@ body{
 }
 
 .appName {
-  background-image: "https://images.squarespace-cdn.com/content/v1/586a6d7937c581270a2cbfe5/1554473810474-ORUQKC6KHAS7MZI30JLX/Salon+pic+cover.jpg?format=2500w";
+  background-image: url(https://collegeforward.org/wp-content/uploads/2020/09/Self-Care-HERO.png);
+  width: 2000px;
+  height: 500px;
 }
 
 .topnav {
@@ -18,8 +20,8 @@ body{
   flex-direction: row;
   /* justify-content: left; */
   align-items: center;
-  margin: 20px auto;
-  width: 100%;
+  margin: 40px auto;
+  width: 3000%;
 }
 
 img {
