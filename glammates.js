@@ -40,7 +40,7 @@ function renderList(response){
         div.appendChild(name);
         div.appendChild(address);
         div.appendChild(phone);
-        document.querySelector("#salons").appendChild(div);
+        document.querySelector(".salons").appendChild(div);
     }
 }
 

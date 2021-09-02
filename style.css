@@ -2,52 +2,52 @@ body{
     background-color: bisque;
     font-family: sans-serif;
     color:chocolate;
-    font-size: xx-large;
+    width: 100%;
 }
-#menu{
-    background-color: bisque;
-    padding: 20px;
-    width: auto;
+
+.appName {
+  background-image: "https://images.squarespace-cdn.com/content/v1/586a6d7937c581270a2cbfe5/1554473810474-ORUQKC6KHAS7MZI30JLX/Salon+pic+cover.jpg?format=2500w";
 }
-    
 
-    /* .container-1{
-        display: flex;
-        /*
-        align-items: flex-start;
-        align-items: flex-end;
-        */
-    /* }
+.topnav {
+  width: 100%;
+}
 
-    .container-1 div{
-        border: 1px #ccc solid;
-        padding: 10px;
-    }
+.images {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: left; */
+  align-items: center;
+  margin: 20px auto;
+  width: 100%;
+}
 
-    .box-1{
-        flex:2;
-        order:2;
-    }
+img {
+  max-height: 200px;
+  width: contain;
+}
 
-    .box-2{
-        flex:1;
-        order:1;
-    }
-    
-    .box-3{
-        flex:1;
-        order: 3;
-    }  */
+h1 {
+  margin: 10px auto;
+  font-size: 50px;
+}
 
-/* div class=  "container-1">
-    <div class=".box-1">
-     <h3>Box One</h3>
-    <p>Beauty options for you, whenever you need them.</p>
-    </div>
-    <div class="box-2">
-    <h3>Box Two</h3>
-    <p>Find local makeup and nail services in your city.</p>
-    </div>
-    <div class=".box-3">
-    <h3>Box Three</h3>
-    <p> Locate the top beauty professionals near you.</p>  */
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: chocolate;
+}
+
+#search {
+  border-color: chocolate;
+  border-radius: 3px;
+  color: chocolate;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  background-color: chocolate;
+  color: white;
+  padding: 3px 8px;
+}
