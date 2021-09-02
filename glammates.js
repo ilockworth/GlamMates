@@ -27,15 +27,19 @@ function renderList(response){
         let salon = document.createElement("p")
         let name = document.createElement("p");
         let address =document.createElement("p");
-        let phonenumber = document.createElement("p");
+        let phone = document.createElement("p");
         salon.innerText="Name: "+response[i].name
+        address.innerText="address:"+response[i].location.address1
+        phone.innerText="phone:"+response[i].phone
+
+        
         // response[i].Salon; 
         // response[i].name+"'>";
         // address.innerText="Year: "+response[i].phonenumber;
         div.appendChild(salon);
         div.appendChild(name);
         div.appendChild(address);
-        div.appendChild(phonenumber);
+        div.appendChild(phone);
         document.querySelector("#salons").appendChild(div);
     }
 }

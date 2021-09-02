@@ -1,11 +1,23 @@
+body{
+    background-color: bisque;
+    font-family: sans-serif;
+    color:chocolate;
+    font-size: xx-large;
+}
+#menu{
+    background-color: bisque;
+    padding: 20px;
+    width: auto;
+}
+    
 
-    .container-1{
+    /* .container-1{
         display: flex;
         /*
         align-items: flex-start;
         align-items: flex-end;
         */
-    }
+    /* }
 
     .container-1 div{
         border: 1px #ccc solid;
@@ -25,7 +37,7 @@
     .box-3{
         flex:1;
         order: 3;
-    }
+    }  */
 
 /* div class=  "container-1">
     <div class=".box-1">
