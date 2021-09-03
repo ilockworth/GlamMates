@@ -65,7 +65,16 @@ a {
 }
 .salons {
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    text-decoration: underline;
+    letter-spacing: 4px;
+    list-style:inside;
+    word-spacing: 10px;
+    margin: 40px auto;
+    border-style: solid;
+    padding: inherit;
 }
 button {
   border: none;
