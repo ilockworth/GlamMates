@@ -66,8 +66,8 @@ a {
 .salons {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center ;
+    justify-content: left;
+    align-items: left;
     text-decoration: underline;
     letter-spacing: 4px;
     list-style:inside;
@@ -89,7 +89,7 @@ button {
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) { */
       body{
-          background-color: green;
+          background-color:burlywood;
         }
         #salonbutton{
             background-color:white;

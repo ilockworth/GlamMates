@@ -14,13 +14,6 @@ async function searchSalons () {
 }
 function renderList(response){
     console.log(response);
-    // while (document.querySelector(".salon-list").firstChild){
-    //   document.querySelector(".salon-").removeChild(document.querySelector(".salon-list").firstChild)  
-    // }
-    // let header=document.createElement("h2");
-    // header.innerText="Salon List";
-    // document.querySelector(".salon-list").appendChild(header);
-
     for (let i=0;i<response.length;i++){
         console.log(response[i]);
         let div=document.createElement("div");
@@ -33,9 +26,7 @@ function renderList(response){
         phone.innerText="phone:"+response[i].phone
 
         
-        // response[i].Salon; 
-        // response[i].name+"'>";
-        // address.innerText="Year: "+response[i].phonenumber;
+       
         div.appendChild(salon);
         div.appendChild(name);
         div.appendChild(address);
@@ -43,29 +34,5 @@ function renderList(response){
         document.querySelector(".salons").appendChild(div);
     }
 }
-
-
-
-// function searchSalons(){
-//     let input=document.getElementById("search").value;
-//     console.log(city);
-//     const response= axios.get(GlamMatesUrl+input.value)
-//     .then(function(response){
-//         console.log(response);
-//         renderList(response);
-
-// //     }}
-// let input=document.querySelector("#seach")
-// function searchSalons(){
-//     let city=document.getElementById("search").value;
-//     console.log(city);
-//     const response= axios.get(GlamMatesUrl+input.value)
-//     .then(function(response){
-//         console.log(response);
-        // renderList(response);
-    // });
-// }
-
-
-document.getElementById("salonbutton").addEventListener("click",searchSalons);
-
+document.getElementById("salonbutton").addEventListener("click",searchSalons);{
+}
