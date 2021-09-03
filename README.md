@@ -5,7 +5,7 @@
 
 •	App Description: 
 
-GlamMates will serve as an on demand beauty service platform. Users will be able to search the nearest beauty, hair and nail salons with the click of a button. This will allow users to locate the nearest salons and book appointments. 
+GlamMates will serve as an on demand beauty service platform. Users will be able to search for the nearest beauty, hair and nail salons with the click of a button. This will allow users to locate the nearest salons while facilitating the process. 
 
 •	API: The API you are using and the information you plan to get from it.
 https://www.yelp.com/developers/v3/manage_app?app_created=True
