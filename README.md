@@ -119,15 +119,15 @@ https://app.conceptboard.com/board/u16y-7b7u-szr1-hu88-aqkb
 
 | Timeframe     | ET            |  AT |
 | ------------- |:-------------:| -----:|
-| JS            |   3hr         |  TBD  |
-|Axios request  |   3hr         |   TBD |
-| Html          |   3hr         |  TBD  |
-| CSS           |   3hr         |  TBD  |
-| Responsive Design | 3hr       | TBD   |
-| Features      |   3hr         |  TBD  |
-| Debugging     |   4hr         |  TBD  |
-| Functions     |   3hr         |  TBD  |
-| Total         |               |       |
+| JS            |   3hr         |  5  |
+|Axios request  |   3hr         |   3 |
+| Html          |   3hr         |  4 |
+| CSS           |   3hr         |  7 |
+| Responsive Design | 3hr       | 4  |
+| Features      |   3hr         |  5 |
+| Debugging     |   4hr         |  6 |
+| Functions     |   3hr         |  4  |
+| Total         |               |   38    |
 
 
 
